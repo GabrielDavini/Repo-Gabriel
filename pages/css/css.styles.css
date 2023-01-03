@@ -1,0 +1,30 @@
+/*regla a un selector*/
+h2 {color:brown}
+
+/*regla a un selector*/
+#mih2 {color:brown}
+/*
+*/
+/*clase*/
+.mih2Clase {color:green}
+
+/*
+0-estilo inline
+1-id
+2-clase
+3- selector
+*/
+
+.cajaExterna {
+    margin: 50px 15px;
+    border: 2px solid red;
+    padding: 25px;
+    background-color: aqua;
+}
+.cajaInterna {
+    margin: 10px 5px;
+    border: 1px solid red;
+    padding: 5px;
+    background-color: rgb(212, 255, 0  );
+
+}
