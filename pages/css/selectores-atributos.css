@@ -1,0 +1,32 @@
+a {
+    display: block;
+}
+/*IGUAL*/
+/*a que tenga href =  a "www.google.com.ar"*/
+[href="www.google.com.ar"] {
+    font-size: 30px;
+    color:blueviolet
+}
+/* */
+p[value="textocualquiera"] {
+    font-size: 15px;
+}
+/*COMIENCE CON*/
+/*ALT+94*/
+[href^="www2"] {
+    color:pink;
+}
+/*CONTENGA*/
+[href*="ook"] {
+    color: red;
+}
+/*TERMINE CON*/
+[href*="www.comafi.com.ar"] {
+    color: aqua;
+}
+/*CONTENGA*/
+#tbl2 tr td[table-value="2"] {
+    [id="tbl2"] {
+    background-color: greenyellow;
+}
+}

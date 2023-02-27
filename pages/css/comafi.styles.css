@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px; 
+    font-weight: 600;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.top_menu_container {
+    /*background-color: aquamarine;*/
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 11px;
+}
+.top_menu_section {
+    display: flex;
+    color: white;
+}
+.top_menu_section li {
+    margin: 1px;
+}
+.top_menu_section li a{
+    padding-top: 5px;
+    /* font-size: 11px; */
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+}
+.rojo {
+    text-transform: uppercase;
+    background-color: #e21327cb;
+}
+.gris {
+    background-color: grey;
+}
+.top_menu_section a:hover {
+    background-color: #7f131efd;
+    cursor: pointer;
+}
+.top_menu_section_links {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    color: #000;
+    padding: 2px;
+}
+.top_menu_section_links li {
+    margin: 5px;
+    font-size: 11px;
+    color: #000;
+}
+.top_menu_section_links li a:active, a:visited {
+    color: #7878;
+}
+.top_menu_section_links li a:hover {
+    color: #000;
+}
+/*logo, links + forms */
+.log_menu_form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.log_menu_form_menu {
+    display: flex;
+}
+.link_active {
+    color: #789c48 !important;
+}
+.log_menu_form_menu li {
+    font-size: 13px;
+    margin: 3px;
+}
+.log_menu_form_menu a a:active {
+    color: #000;
+}
+.log_menu_form_menu a a:hover {
+    color: #789c48;
+}
+.logo_menu_form_formulario input {
+    height: 30px;
+    border: 1px solid;
+    background-color: #f7f8f7;
+    padding: 10px;
+}
+.logo_menu_form_formulario .boton {
+    position: absolute;
+    background-color: none;
+    height: 28px;
+    width: 30px;
+    border: none;
+    right: -0px;
+    bottom: 1px;
+    background-color: #f7f8f7;
+}
+.bottom_links_container {
+    display: flex;
+    margin-top: 15px;
+    min-height: 36px;
+    background-color: #789c48;
+    justify-content: center;
+    align-items: center;
+}
+.bottom_links_container a {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.sofia_container {
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    margin-right: 10px;
+}
+.sofia_help {
+    visibility: hidden;
+    background-color: #789c48;
+    font-size: 12px;
+    font-weight: 400;
+}
+.sofia_container:hover > .sofia_help {
+    visibility: visible;
+}

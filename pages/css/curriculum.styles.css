@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,600&display=swap"'); 
+/*
+ todo es css
+ */
+ /*
+ afecta a todos los section 
+ */
+ .marco {
+    display: block;
+    border: solid 2px;
+    border-color: black;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 90%;
+}
+#l1 {
+    height: 5px;
+    background-color: pink;
+ }
+ #l2 {
+    height: 15px;
+    background-color: orange;
+ }
+ #l3 {
+    height: 10px;
+    background-color: grey;
+ }
+ .cv {
+    background-color: beige;
+    border-radius: 5%;
+ }
+.personal {
+    padding: 10px;
+}
+.personal_left {
+    margin: 5px;
+    display: inline-block;
+    width: 58%;
+}
+.personal_right{
+    margin: 5px;
+    display: inline-block;
+    width: 20%;
+}
+.personal_left_h1 {
+    text-transform: uppercase; 
+    font-weight: bold;
+    color: orangered;
+}
+.personal_left_datos {
+    color: brown;
+}
+.personal_right img{
+    padding-top: 25px;
+    width: 120%;
+    border-radius: 20%;
+}
+.personal hr{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.Form_Academica_left {
+    margin: 5px;
+    display: inline-block;
+    width: 58%;
+}
+.Form_Academica_right{
+    margin: 5px;
+    display: inline-block;
+    width: 20%;
+}
+.Form_Extra_Academica_left {
+    margin: 5px;
+    display: inline-block;
+    width: 58%;
+}
+.Form_Extra_Academica_right{
+    margin: 5px;
+    display: inline-block;
+    width: 20%;
+}
+ /*
+ Selector por ID
+ */
+ #secForm_Academica {
+    background-color: greenyellow;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 18 px;
+    font-weight: bolder;
+}
+.Form_Academica {
+    color: grey;
+}
+.Form_Extra_Academica p {
+    color: grey;
+    font-size: 12 px;   
+}
+.Experiencia {
+    color: grey;
+}
+.Calificaciones {
+    color: grey;
+}
